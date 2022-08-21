@@ -3,9 +3,8 @@
 - [*Resources to learn Git*](https://docs.github.com/en/get-started/quickstart/set-up-git)
 - [*About READMEs*](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 - [*How to write a Git commit message*](https://cbea.ms/git-commit)
-- 
-- **Source code management**                                                                                                            
-- **Git and Github cheat sheet - Everything in less than 30 seconds** 
+- *Source code management*                                                                                                            
+- *Git and Github cheat sheet - Everything in less than 30 seconds* 
 - **Right-engineering, right-documenting**
    * Here are a few nice links about over engineering:
    - http://www.codesimplicity.com/post/what-is-overengineering/
