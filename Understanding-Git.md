@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 **Git** is a source code management tool, that comes with a command-line tool for its users.
 ## A Practical Guide:bookmark:
 A particularity about Git, is that it’s designed to be useable without a central repository (you can **pull** code from your friend’s computer, and **push** you work back there, for instance), but not many people use it that way. There is usually a central Git server that the whole team **pushes** code to and **pulls** code from; however, that explains why it is often referred as a “decentralized” system.
