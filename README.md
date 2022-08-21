@@ -3,16 +3,16 @@
 - [*Resources to learn Git*](https://docs.github.com/en/get-started/quickstart/set-up-git)
 - [*About READMEs*](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 - [*How to write a Git commit message*](https://cbea.ms/git-commit)
+- 
+- **Source code management**                                                                                                            
+- **Git and Github cheat sheet - Everything in less than 30 seconds** 
 - **Right-engineering, right-documenting**
- * Here are a few nice links about over engineering:
+   * Here are a few nice links about over engineering:
    - http://www.codesimplicity.com/post/what-is-overengineering/
    - https://coderoom.wordpress.com/2010/06/23/criminal-overengineering/ (has a technical bit around the beginning)
-
-- **Source code management**
-- **Git and Github cheat sheet - Everything in less than 30 seconds**
-- **Resources for advanced tasks**(Read only after finishing the mandatory tasks):
-- [*Learning branching*](https://learngitbranching.js.org)
-- [*Effective pull requests and other good practices for teams using GitHub*](https://codeinthehole.com/tips/pull-requests-and-other-good-practices-for-teams-using-github/)
+* **Resources for advanced tasks**(Read only after finishing the mandatory tasks):
+  - [*Learning branching*](https://learngitbranching.js.org)
+  - [*Effective pull requests and other good practices for teams using GitHub*](https://codeinthehole.com/tips/pull-requests-and-other-good-practices-for-teams-using-github/)
 # Learning Objectives:page_with_curl:
 At the end of this project, you are expected to be able to [*explain to anyone*](https://fs.blog/feynman-technique/),**without the help of Google:**
 - What is source code management
@@ -31,8 +31,8 @@ At the end of this project, you are expected to be able to [*explain to anyone*]
 - How to work as collaborators on a project
 - Which files should and which files should not appear in your repo
 ## Requirements:bookmark:
-- A `README.md`file at the root of the `alx-pre_course repo`, containing a description of the repository
-- A `README.md`file, at the root of the folder of this project (i.e. `0x01-git`), describing what this project is about
+- A `README.md`file at the root of the `alx-pre_course repo` or `alx-zero_day repo`, containing a description of the repository
+- A `README.md`file, at the root of the folder of each of the project (e.g `0x01-git`), describing what this project is about
 - **Do not use GitHub’s web UI**, but the command line to perform the exercise (except for operations that can not possibly be done any other way than through the web UI). You won’t be able to perform many of the task requirements on the web UI, and you should start getting used to the command line for simple tasks because many complex tasks can only be done via the command line.
 - Your answer files should only contain the command, and nothing else
 ## Copyright - Plagiarism:stop_sign:
@@ -52,30 +52,30 @@ $ git commit -m "Initial commit"
 $ git push origin main
 
 ~~~~
-# Tasks:scroll:
+# Task:scroll:
 ## 0. Create and setup your Git and GitHub account
-### Step 0 - Create an account on GitHub [if you do not have one already]
+#### Step 0 - Create an account on GitHub [if you do not have one already]
 You will need a GitHub account for all your projects at ALX. If you do not already have a github.com account, you can create an account for free [here](https://github.com/login)
 
-<h4>Step 1 - Create a Personal Access Token on Github</h4>
+#### Step 1 - Create a Personal Access Token on Github
 To have access to your repositories and authenticate yourself, you need to create a Personal Access Token on Github.
 You can follow [this tutorial](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) to create a token.
 
-<h4>Step 2 - Update your profile on the Intranet</h4>
+#### Step 2 - Update your profile on the Intranet
 Update your Intranet profile by adding your Github username
 
-### Step 3 - Create your first repository
+#### Step 3 - Create your first repository
 Using the graphic interface on the [github website](https://github.com/login), create your first repository.
 - Name: `alx-pre_course` or `alx-zero_day`
 - Description:`I'm now a ALX Student,this is my first repository as a full-stack engineer`
 - Public repo
 - No `README`, `.gitignore`, or license
 
-<h4>Step 4 - Open the sandbox</h4>
-> * On the intranet, just under the task, click on the button `>_Get a sandbox` and `run` to start the machine.
+#### Step 4 - Open the sandbox
+- On the intranet, just under the task, click on the button `>_Get a sandbox` and `run` to start the machine.
 - Once the container is started, click on `>_Webterm` to open a shell where you can start work from.
 
-<h4>Step 5 - Clone your repository</h4>
+#### Step 5 - Clone your repository
 On the webterm of the sandbox, do the following:
 - Clone your repository
 ~~~~
@@ -87,7 +87,7 @@ warning: You appear to have cloned an empty repository.
 **Replace {YOUR_USERNAME} with your username from step 0 and 1**
 **Pro-Tip:** On windows, use CTRL + A + V to paste in the web terminal
 
-<h4>Step 6 - Create the README.md and push the modifications</h4>
+#### Step 6 - Create the README.md and push the modifications
 * Navigate to this new directory.[Tips](https://askubuntu.com/questions/232442/how-do-i-navigate-between-directories-in-terminal)
 ~~~~
 root@896cf839cf9a:/# cd alx-pre_course/
